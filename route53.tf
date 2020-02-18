@@ -9,10 +9,10 @@ resource "aws_route53_record" "main-txt" {
   name = "andy.dekker.and.digital"
   type = "TXT"
   records = [
-    ns-1731.awsdns-24.co.uk.
-    ns-599.awsdns-10.net.
-  ns-247.awsdns-30.com.
-  ns-1440.awsdns-52.org.
+    ns-1731.awsdns-24.co.uk,
+    ns-599.awsdns-10.net,
+    ns-247.awsdns-30.com,
+    ns-1440.awsdns-52.org
   ]
   ttl = 900
 }
